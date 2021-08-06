@@ -1,5 +1,5 @@
 # User managment  - MEAN-Stack project
-<h2>Summery</h2>
+<h2>Summary</h2>
 <span>MEAN STACK.
 A User managemnt web app. each user have its information, tasks and posts and ability to update, create and delete them</span><br/><br/>
 
