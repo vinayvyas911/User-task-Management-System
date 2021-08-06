@@ -1,0 +1,8 @@
+<div id="todoData">
+    <h4><b>Title</b><br/> {{todo.title}}</h4>
+    <h4><b>Completed</b><br/></h4>
+    <h4 [innerText]="todo.completed? 'Yup👍🏻' : 'Nope👎🏻' "><b>Completed</b><br/></h4>
+    <div id="MCDiv" *ngIf="todo.completed == false">
+        <button id="mtpBTN" (click)="updateTodo(todo._id!)">Press if Done!</button>
+    </div>
+</div><br/>
